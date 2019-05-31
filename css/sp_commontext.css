@@ -1,0 +1,43 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+
+/*************************
+ * 商品ページ共通パーツ
+ *************************/
+#shopCommonText {
+    padding: 40px 0 30px;
+}
+#shopCommonText>div {
+    margin: 0;
+}
+#sp_common{ 
+	width: 100%;
+	}
+
+#itemName h1{
+    font-weight: bold;
+    line-height: 150%;
+    border-bottom: #CCCCCC 1px solid;
+}
+
+#itemName h2{
+    font-weight: bold;
+}
+
+@media only screen and (max-width:374px){
+#sp_common{ 
+	max-width: 320px;
+	margin: 0 auto;
+	display: block;
+	width: 320px;
+	}
+}
+@media all and (min-width: 375px) and (max-width: 414px){
+	#sp_common{ 
+	max-width: 375px;
+	margin: 0 auto;
+	display: block;
+	width: 375px;
+	}
+}

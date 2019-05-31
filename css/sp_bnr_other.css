@@ -1,0 +1,193 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+
+/**************************************************
+ * クーポン
+ **************************************************/
+ 
+ /*4パターン*/ 
+#couponArrange {
+	max-width:640px;
+	margin: 0 auto 15px;
+}
+
+#couponArrange ul {
+	margin-top: 5px;
+}
+
+#couponArrange li{
+	float:left;
+	margin:1% !important;
+	/*width:45.2%; 20180303クーポン4パターン*/
+	/*width:31.3%; クーポン3パターン*/
+}
+#couponArrange li.col2{
+	width:48%;
+}
+#couponArrange li.col3{
+	width:31.3%;
+}
+
+#couponArrange li a{
+	vertical-align:top;
+}
+#couponArrange li img{
+	width:100%;
+}
+
+#couponArrange li:last-child{
+	margin-right: 0;
+}
+
+#couponArrange p{
+	text-align:center;
+	font-size:13px;
+}
+
+#couponArrange p.couponTitle{
+	font-size:18px;
+	font-weight: bold;
+	margin-top:5px;
+}
+#couponArrange p#timesale {
+	margin: 1%;
+	margin-bottom: 30px;
+}
+#couponArrange p#timesale img {
+	width: 100%;
+}
+
+/**************************************************
+ * バナー
+ **************************************************/
+#ohterBnr{
+	max-width:640px;
+	margin:0 auto;
+}
+#ohterBnr li{
+	width:100%;
+	margin:0 0 10px 0;
+}
+#ohterBnr li img{
+	width:100%;
+}
+
+#ohterBnr p {
+	font-size: 13px;
+}
+
+/* 横並びバナー */
+
+#small_banner {
+	width: 100%;
+	margin: 20px auto 20px;
+}
+
+#small_banner ul {
+	margin-top: 5px;
+}
+
+#small_banner li{
+	float:left;
+	margin:1%;
+}
+#small_banner li.col2{
+	width:48%;
+}
+#small_banner li.col3{
+	width:31.3%;
+}
+#small_banner li a{
+	vertical-align:top;
+}
+#small_banner li img{
+	width:100%;
+}
+#small_banner li:last-child{
+	margin-right: 0;
+}
+
+
+/***********************
+ * デリバリー
+ ***********************/
+
+#delivery{
+	max-width:630px;
+    padding: 8px 0 8px;
+    text-align: center;
+    font-size: 10px;
+    margin: 0 auto;
+    border: solid 5px #e2e2e2;
+}
+#delivery p{
+	margin:0;
+	/*text-indent:7px;*/
+	line-height: 21px;
+}
+#delivery .date_at{
+	font-size: 14px;
+    color: #8b0008;
+    font-weight: bold;
+	padding:0 1px 0 0;
+}
+#delivery .time_at{
+	font-size: 14px;
+    color: #8b0008;
+    font-weight: bold;
+	padding:0 1px;
+}
+#delivery .holiday_at{
+	font-size: 10px;
+    font-weight: bold;
+	margin:0 0 0 0;
+}
+
+#delivery .delivery_info{
+	white-space: normal;
+	/*letter-spacing:0.1em;*/
+	color:#8b0008;
+	font-weight:bold;
+	font-size: 12px;
+}
+
+
+/**************************************************
+ * 年末年始スケジュール
+ **************************************************/
+
+#scheduleBnr {
+	width: 100%;
+	margin: 0 auto 15px;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	/*background:#900;*/
+	background: #f0f0f0;
+	letter-spacing:0.05em;
+	height: 40px;
+	line-height: 40px;
+} 
+
+#scheduleBnr a{
+	/*color: #ffffff!important;*/
+	text-decoration: underline;
+	color: #BF0000;
+}
+
+#scheduleBnr a span {
+    color: #fff;
+    background: #BF0000!important;
+    padding: 3px 4px;
+    margin-right: 4px;
+}
+
+p.haisouInfo {
+	text-align: center;
+	font-weight: bold;
+	font-size: 13px;
+	margin-bottom: 10px;
+}
+
+
